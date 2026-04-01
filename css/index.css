@@ -1,0 +1,36 @@
+.navbar-custom {
+  background-color: #2B2B2B;
+  padding: 20px 0;
+}
+
+.logo-text {
+  font-family: 'Jacques Francois', serif;
+  color: #F0C260;
+  font-size: 22px;
+  line-height: 1.1;
+}
+
+.logo-text span {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #FFFAF9;
+}
+
+/* MENU */
+.navbar-custom .nav-link {
+  font-family: 'Jacques Francois', serif;
+  color: #FFFAF9;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.navbar-custom .nav-link:hover {
+  color: #F0C260;
+}
+
+/* ITEM ATIVO (Início dourado) */
+.navbar-custom .nav-link.ativo {
+  color: #F0C260;
+}
