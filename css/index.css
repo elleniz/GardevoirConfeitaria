@@ -1,36 +1,28 @@
 .navbar-custom {
   background-color: #2B2B2B;
   padding: 20px 0;
+  height: 90px;
 }
 
-.logo-text {
-  font-family: 'Jacques Francois', serif;
-  color: #F0C260;
-  font-size: 22px;
-  line-height: 1.1;
-}
-
-.logo-text span {
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: #FFFAF9;
-}
-
-/* MENU */
+/* evita mexer pq pode bagunçar kkkkkkkk */
 .navbar-custom .nav-link {
   font-family: 'Jacques Francois', serif;
   color: #FFFAF9;
-  margin: 0 15px;
+  margin: 0 27px; /*faz o distanciamento das palavra do nav*/
   font-size: 16px;
   transition: 0.3s;
 }
 
-/* HOVER */
 .navbar-custom .nav-link:hover {
   color: #F0C260;
 }
 
-/* ITEM ATIVO (Início dourado) */
-.navbar-custom .nav-link.ativo {
-  color: #F0C260;
+img {
+  margin-left: 210px;
+  margin-top: -10px;
+}
+
+.text-footer{
+  font-family: 'Jacques Francois', serif;
+  font-size: 13px;
 }
