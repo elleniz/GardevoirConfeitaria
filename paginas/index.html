@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/css/styleindex.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <title>Início</title>
+
+  <script src="/javascript/menu-navegacao.js" defer></script>
+  <script src="/javascript/footer.js" defer></script>
+  <script src="/javascript//card-avaliacao.js" defer></script>
+  <script src="/javascript/card-curso.js" defer></script>
+</head>
+
+<body>
+
+<menu-navegacao></menu-navegacao>
+
+<main>
+
+  <!-- 🔹 HERO -->
+  <section style="background: linear-gradient(to right, #434343, #464646); min-height: 500px;">
+    <div class="container py-5">
+      <div class="row align-items-center">
+
+        <div class="col-lg-6 text-white">
+          <h1>O melhor da confeitaria, workshop’s e cursos com profissionais renomados.</h1>
+          <p>Lorem ipsum ispum lorem amem aaaaa poder pode vir aqui.</p>
+          <button class="btn btn-warning">Garanta sua vaga</button>
+        </div>
+
+        <div class="col-lg-6 text-center">
+          <img src="/img/boloprincipal.png" style="width: 550px;">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ASIDE -->
+  <section class="section-cursos">
+
+    <div class="row gx-0">
+
+      <!--aside-->
+      <div class="col-lg-3">
+        <div class="widget-avaliacoes">
+          <h4 class="mb-4" style="color:#8F2738;">Eles recomendam a GARDEVOIR:</h4>
+
+          <card-avaliacao nome="Tomás Holland" foto="/img/TomHolland.webp" texto="Melhor experiência gastronômica da vida!"></card-avaliacao>
+          <card-avaliacao nome="Jack Five" foto="/img/pofessor-jackson.jpg" texto="Tudo incrível... Provei os melhores doces e tive a chance de fazer um curso com a renomada Chef Saiko Iziiwa. Melhor que isso com certeza só dois disso!"></card-avaliacao>
+          <card-avaliacao nome="Ri Anna" foto="/img/Rihanna.jpg" texto="I think it’s this Workshop with Diogo Lorem is the best thing you can do in Brazil! I absolutelly love it."></card-avaliacao>
+          <card-avaliacao nome="Pierre Hermes" foto="/img/Pierre Hermé.jpg" texto="Melhores workshops de confeitaria da América."></card-avaliacao>
+          <card-avaliacao nome="Laga Dyga" foto="/img/ladygaga.jpg" texto="Absolutelly love it. "></card-avaliacao>
+
+        </div>
+      </div>
+
+      <!-- CONTEÚDO DIREITA -->
+            <div class="col-lg-9">
+          <div class="container py-5 mt-5 conteudo-direita">
+          <div class="d-flex flex-column ps-4" style="max-width: 1200px;">
+            <h2 style="color: #8F2738; font-size: 32px;">Workshop’s e cursos</h2>
+            <p style="color: #661647; font-size: 24px;">
+              Confira os melhores cursos e workshop’s do mês de abril na Gardevoir. 
+              Viva uma experiência completa na primeira confeitaria brasileira a conquistar o World Culinary Awards na categoria de melhores experiências educacionais em gastronomia.
+            </p>
+
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <card-curso titulo="Lorem ipsum com Diogo Lorem completo" descricao="Lorem aulas apenas ipsum R$." imagem="https://picsum.photos/302/200"></card-curso>
+              </div>
+              <div class="col-md-4 mb-4">
+                <card-curso titulo="Lorem ipsum com Diogo Lorem completo" descricao="Lorem aulas apenas ipsum R$." imagem="https://picsum.photos/301/200"></card-curso>
+              </div>
+              <div class="col-md-4 mb-4">
+                <card-curso titulo="Lorem ipsum com Diogo Lorem completo" descricao="Lorem aulas apenas ipsum R$." imagem="https://picsum.photos/302/200"></card-curso>
+              </div>
+            </div>
+
+            <div class="text-center mt-4">
+              <button class="btncursos">Ver todos os cursos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+<section class="section-banner position-relative" style="background-color: #2B2B2B; min-height: 500px; padding-top: 80px;">
+
+  <div class="position-absolute" style="bottom: 20px; left: 20px; display: flex; flex-direction: column; gap: 15px;">
+    <button class="btncursos">Ver  todos os produtos</button>
+    <button class="btncursos">Faça sua encomenda</button>
+    <button class="btncursos2">Gardevoir casamentos</button>
+  </div>
+
+  <div class="container d-flex flex-column align-items-center justify-content-center h-100 text-center">
+
+    <!-- imagem com texto -->
+    <div class="position-relative mb-3" style="max-width: 900px; width: 100%;">
+      <img src="/img/bem-casado.png" class="img-fluid rounded" alt="Imagem central">
+    </div>
+
+  
+    <p class="text-white" style="max-width: 600px;">
+      Os doces da Gardevoir são referência em toda a América Latina, destacando-se pelo equilíbrio de sabores, pela excelência em cada detalhe e pela arte de transformar ingredientes em experiências únicas.
+Aqui, você pode desfrutar de nossas criações no local, em um ambiente pensado para proporcionar uma experiência inesquecível, ou realizar encomendas que elevam qualquer evento a um momento verdadeiramente especial.
+E, para ocasiões ainda mais marcantes, oferecemos o serviço completo para casamentos — cuidando de cada detalhe da confeitaria para que seu grande dia seja simplesmente maravilhoso, com sofisticação, harmonia e o inconfundível toque Gardevoir.
+    </p>
+
+  </div>
+</section>
+ </section>
+<section class="section-final position-relative" style="background-color: #ffffff; min-height: 600px; padding: 60px 0;">
+
+  <div class="container d-flex flex-column align-items-center">
+
+    <!--premioss -->
+    <div class="d-flex justify-content-center align-items-center gap-5 mb-5 flex-wrap">
+
+      <div class="text-center">
+        <img src="https://picsum.photos/120" alt="Icone 1" class="mb-2">
+        <p class="mb-0" style="color: #8F2738; font-size: 24px;"><strong>Latin America's 50 Best Restaurants</strong></p>
+      </div>
+
+      <div class="text-center">
+        <img src="https://picsum.photos/120" alt="Icone 2" class="mb-2">
+        <p class="mb-0" style="color: #661647; font-size: 24px;"><strong>World Culinary Awards</strong></p>
+      </div>
+
+      <div class="text-center">
+        <img src="https://picsum.photos/120" alt="Icone 3" class="mb-2">
+        <p class="mb-0" style="color: #8F2738; font-size: 24px;"><strong>Coupe du Monde de la Pâtisserie</strong></p>
+      </div>
+
+      <div class="text-center">
+        <img src="https://picsum.photos/120" alt="Icone 4" class="mb-2">
+        <p class="mb-0" style="color: #661647; font-size: 24px;"><strong>Prêmio Prazeres da Mesa</strong></p>
+      </div>
+
+    </div>
+
+    <!-- card em baixo com as divisao -->
+    <div class="card text-center" style="width: 80%; max-width: 1000px; border-radius: 25px; background-color: #E6BFD2; padding: 20px;">
+  <div class="card-body d-flex justify-content-center align-items-center gap-5">
+
+   <!-- aq tem a divisao um -->
+    <div class="d-flex align-items-start gap-2">
+      <img src="https://picsum.photos/50" alt="Icone 1" style="width:90px; height:90px; object-fit:cover; border-radius:8px;">
+      <div class="text-start">
+        <p style="color:#000000; font-size:26px; font-weight:bold; margin:0;">+12</p>
+        <p style="color:#000000; font-size:18px; font-weight:bold;margin:0;">Prêmios internacionais</p>
+      </div>
+    </div>
+
+    <!-- aq tem a divisao doiss -->
+    <div class="d-flex align-items-start gap-2">
+      <img src="https://picsum.photos/50" alt="Icone 2" style="width:90px; height:90px; object-fit:cover; border-radius:8px;">
+      <div class="text-start">
+        <p style="color:#000000; font-size:26px; font-weight:bold; margin:0;">+10</p>
+        <p style="color:#000000; font-size:18px; font-weight:bold; margin:0;">Cursos & Workshop’s com confeiteiros renomados</p>
+      </div>
+    </div>
+
+    <!-- aq tem a divisao tres -->
+    <div class="d-flex align-items-start gap-2">
+      <img src="https://picsum.photos/50" alt="Icone 3" style="width:90px; height:90px; object-fit:cover; border-radius:8px;">
+      <div class="text-start">
+        <p style="color:#000000; font-size:26px; font-weight:bold; margin:0;">+500</p>
+        <p style="color:#000000; font-size:18px; font-weight:bold; margin:0;">Casamentos realizados pelo mundo</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</section>
+
+</section>
+
+</main>
+
+<ins-footer></ins-footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
