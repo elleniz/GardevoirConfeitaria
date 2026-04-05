@@ -1,0 +1,13 @@
+
+.botao-saiba-mais {
+  font-family: 'Jacques Francois', serif; 
+  text-align: center; 
+  background-color: #661647; 
+  color: white; 
+  border-radius: 50px
+}
+
+.botao-saiba-mais:hover{
+  background-color: #ab2c7a;
+}
+

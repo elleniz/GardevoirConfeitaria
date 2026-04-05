@@ -1,0 +1,16 @@
+
+.bottom-menu {
+  font-family: 'Jacques Francois', serif;
+  font-size: 14px;
+
+}
+
+.footer-link {
+    color: #FFFAF9;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+.footer-link:hover{
+    color: #F0C260;
+}

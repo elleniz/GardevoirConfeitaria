@@ -1,3 +1,5 @@
+/*navbar*/
+
 class Navbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `

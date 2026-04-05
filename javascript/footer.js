@@ -33,23 +33,23 @@ class Footer extends HTMLElement {
 
                         <div style="margin-top: 15px;">
                         
-                            <a href="#" style="color:#F0C260; padding:10px; text-decoration: none;">
+                            <a href="https://www.facebook.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
 
-                            <a href="#" style="color:#F0C260; padding:10px; text-decoration: none;">
+                            <a href="https://x.com/?lang=pt" style="color:#F0C260; padding:10px; text-decoration: none;">
                                 <i class="fa-brands fa-x-twitter"></i>
                             </a>
 
-                            <a href="#" style="color:#F0C260; padding:10px; text-decoration: none;">
+                            <a href="https://www.youtube.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
 
-                            <a href="#" style="color:#F0C260; padding:10px; text-decoration: none;">
+                            <a href="https://web.whatsapp.com/" style="color:#F0C260; padding:10px; text-decoration: none;">
                                 <i class="fa-brands fa-whatsapp"></i>
                             </a>
 
-                            <a href="#" style="color:#F0C260; padding:10px; text-decoration: none;">
+                            <a href="https://www.linkedin.com.br" style="color:#F0C260; padding:10px; text-decoration: none;">
                                 <i class="fa-brands fa-linkedin-in"></i>
                             </a>
                         </div>

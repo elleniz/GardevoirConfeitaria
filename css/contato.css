@@ -1,0 +1,36 @@
+
+.localizacao {
+  font-family: 'Jacques Francois', serif;
+  font-size: 16x;
+}
+
+.contatobotao:hover {
+  background-color: #be1f82;
+}
+
+.redes-sociais{
+  text-decoration: none;
+  color: #F0C260;
+  
+}
+
+.redes-sociais:hover{
+  color: #661647;
+  text-decoration: underline ;
+}
+
+.titulos {
+  font-weight: 700;
+}
+
+.mapa {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}

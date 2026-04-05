@@ -1,3 +1,4 @@
+/*card*/
 class CardCursos extends HTMLElement {
 
 

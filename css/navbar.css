@@ -1,0 +1,27 @@
+.navbar-custom {
+  background-color: #2B2B2B;
+  padding: 20px 0;
+  height: 90px;
+  width: 100%;
+}
+
+/* evita mexer pq pode bagunçar kkkkkkkk */
+.navbar-custom .nav-link {
+  font-family: 'Jacques Francois', serif;
+  color: #FFFAF9;
+  margin: 0 27px; /*faz o distanciamento das palavra do nav*/
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #F0C260;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.3);
+  transition: all 300ms ease-out;
+}
+
+img {
+  width: 100hv;
+}
+

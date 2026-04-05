@@ -1,0 +1,76 @@
+/*PRODUTOS*/
+
+.carousel {
+  position: relative;
+}
+
+.carousel-control-prev {
+    left: 20px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+.gradiente-produtos {
+  background: linear-gradient(to top, #434343, #464646);
+  height: 340px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.carousel {
+  position: relative;
+}
+
+.ajuste-carrossel {
+  max-width: 700px;
+  margin: 0 auto;
+  align-items: center;
+  margin-right: 400px;
+  margin-top: 30px;
+}
+
+.ajuste-carrossel img {
+    height: auto;
+    object-fit: cover;
+}
+
+/*H1 DOS PRODUTOS...*/
+h1 {
+   font-size: 44px;
+}
+
+.enfase:hover{
+  color: #F0C260;
+}
+
+.botao-orcamento{
+  background-color: #F0C260;
+  font-family: 'Jacques Francois', serif;
+  
+  color: #2B2B2B;
+  border: none;
+  border-radius: 26px;
+  
+}
+.botao-orcamento:hover{
+  background-color: #f4bd46;
+}
+
+.titulos-produtos{
+  color: #F0C260;
+  font-family: 'Jacques Francois', serif;
+  text-align: center;
+}
+
+card-produto img {
+    transition: transform 0.5s ease;
+}
+
+card-produto:hover img {
+    transform: scale(1.1);
+}
+
+card-produto {
+    overflow: hidden;
+}
