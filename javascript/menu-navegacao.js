@@ -9,19 +9,19 @@ class Navbar extends HTMLElement {
               <a class="nav-link" href="#index.html"style="color: #F0C260";>Início</a>
             </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="#produtos.html">Produtos</a>
+              <a class="nav-link" href="./produtos.html">Produtos</a>
             </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="#curos.html">Cursos</a>
+              <a class="nav-link" href="./cursos.html">Cursos</a>
             </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="#localizacao.html">Localização</a>
+              <a class="nav-link" href="./localizacao.html">Localização</a>
             </li>
             <li class="nav-item navbar-text">
               <a class="nav-link" href="#sobre-nos.html">Sobre nós</a>
             </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="#contato.html">Contate-nos</a>
+              <a class="nav-link" href="./contato.html">Contate-nos</a>
             </li>
           </ul>
         </div>

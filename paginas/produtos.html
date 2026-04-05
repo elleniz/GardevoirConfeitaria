@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <title>Produtos</title>
+
     <script src="/javascript/menu-navegacao.js" defer></script>
     <script src="/javascript/footer.js" defer></script>
     <script src="/javascript/card-produtos.js" defer></script>
@@ -18,157 +21,150 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Jacques+Francois&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jacques+Francois&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-    <header>
-        <nav>
-            <menu-navegacao></menu-navegacao>
-        </nav>
-    </header>
+<header class="fixed-top">
+    <nav>
+        <menu-navegacao></menu-navegacao>
+    </nav>
+</header>
+
 <body>
 
     <!--bootstrap-->
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    
+
     <!--CARROSSEL DO TOPO-->
-    <main>            
-            <div class="gradiente-produtos d-flex row align-items-center">
+    <main>
+        <div class="gradiente-produtos d-flex row align-items-center">
 
-                <div class="container col-md-4" style="font-family: Gloock, serif; color: #F0C260; text-align: left; margin-left: 40px; padding-top: 20px; position:absolute;">
-                    <h1>PRO</h1>
-                    <h1>DU</h1>
-                    <h1>TOS</h1>
-                </div>
+            <div class="container col-md-4" style="font-family: Gloock, serif; color: #F0C260; text-align: left; margin-left: 40px; padding-top: 20px; position:absolute;">
+                <h1>PRO</h1>
+                <h1>DU</h1>
+                <h1>TOS</h1>
+            </div>
 
-                <div id="carouselExample" class="carousel slide ajuste-carrossel col-md-8 ">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
+            <div id="carouselExample" class="carousel slide ajuste-carrossel col-md-8 ">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
                         <img src="/img/eclair.png" class="d-block w-100" alt="...">
                     </div>
+
                     <div class="carousel-item">
                         <img src="/img/macarons.png" class="d-block w-100 " alt="...">
                     </div>
+
                     <div class="carousel-item">
                         <img src="/img/bem-casado.png" class="d-block w-100" alt="...">
                     </div>
-                </div>
-                    <div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Anterior</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Próximo</span>
-                        </button>
-                    </div>
-                </div>
+
                 </div>
 
-                <!--Texto-->
-                <article>
-                    <section style="align-items: center; margin-top: 150px; font-family:'Inter', sans-serif; font-size: 16px; padding-left: 180px; padding-right: 180px;">
-                        <h2 style="font-family: 'Jacques Francois', serif; text-align: left;">
-                            Conheça nossos <span style="color: #F0C260;">produtos</span>
-                            <hr>
-                        </h2>
-                        <p>Na Gardevoir, cada encomenda é uma oportunidade de transformar momentos em experiências memoráveis. 
-                            Seja para grandes celebrações, 
-                            festas intimistas ou até mesmo um domingo especial, nossos doces são pensados para encantar em cada detalhe.
-                        </p>
-                        <p>
-                            Trabalhamos com uma ampla variedade de doces finos, macarons, sobremesas autorais e criações exclusivas, 
-                            permitindo que você escolha combinações que traduzam perfeitamente o estilo e a proposta da sua ocasião. 
-                            Cada pedido é produzido com ingredientes nobres, técnicas refinadas e o inconfundível toque <span style="color:#8F2738">Gardevoir</span>.
-                        </p>
-                        <p>
-                            Abaixo temos os produtos em destaque neste mês de <span style="color: #8F2738;">abril</span>na Gardevoir.
-                            Para mais informações sobre encomendas clique <a href="#encomendas" class="enfase" style="text-decoration: none; color: #8F2738;">aqui </a>para ir até o final da página.
-                        </p> 
-                        <p></p>
+                <div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
 
-                    </section>
-                </article>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
 
+        </div>
 
-    
-    <!--PRODUTOS CARDS-->
+        <!--Texto-->
+        <article>
+            <section style="align-items: center; margin-top: 150px; font-family:'Inter', sans-serif; font-size: 16px; padding-left: 180px; padding-right: 180px;">
+                <h2 style="font-family: 'Jacques Francois', serif; text-align: left;">
+                    Conheça nossos <span style="color: #F0C260;">produtos</span>
+                    <hr>
+                </h2>
 
-        <div class="d-flex flex-wrap gap-3  " style="justify-content: center; margin-top: 40px;">
-        <!--PRIMEIRA LINHA DE PRODUTOS-->
-                <card-produto
-                    img="/img/macarons.jpg" descricao="Macaron Clasique">
-                </card-produto>
+                <p>
+                    Na Gardevoir, cada encomenda é uma oportunidade de transformar momentos em experiências memoráveis. 
+                    Seja para grandes celebrações, 
+                    festas intimistas ou até mesmo um domingo especial, nossos doces são pensados para encantar em cada detalhe.
+                </p>
 
-                <card-produto
-                    img="/img/macaron-personalizado.jpg" descricao="Macarron Fleur Art">
-                </card-produto>
+                <p>
+                    Trabalhamos com uma ampla variedade de doces finos, macarons, sobremesas autorais e criações exclusivas, 
+                    permitindo que você escolha combinações que traduzam perfeitamente o estilo e a proposta da sua ocasião. 
+                    Cada pedido é produzido com ingredientes nobres, técnicas refinadas e o inconfundível toque <span style="color:#8F2738">Gardevoir</span>.
+                </p>
 
-                <card-produto
-                    img="/img/macaron-personalizado2.jpg" descricao="Macarron Fleur Art">
-                </card-produto>
+                <p>
+                    Abaixo temos os produtos em destaque neste mês de <span style="color: #8F2738;">abril</span>na Gardevoir.
+                    Para mais informações sobre encomendas clique <a href="#encomendas" class="enfase" style="text-decoration: none; color: #8F2738;">aqui </a>para ir até o final da página.
+                </p>
 
-        <!--SEGUNDA LINHA DE PRODUTOS-->
-            <card-produto
-                img="/img/brigadeiro-personalizado1.jpg" descricao="Brigadeiro Gourmet personalizado">
-            </card-produto>
+                <p></p>
+            </section>
+        </article>
 
-            <card-produto
-                img="/img/brigadeiro-personalizado2.jpg" descricao="Brigadeiro Gourmet personalizado">
-            </card-produto>
+        <!--PRODUTOS CARDS-->
+        <div class="d-flex flex-wrap gap-3" style="justify-content: center; margin-top: 40px;">
 
-            <card-produto
-                img="/img/brigadeiro-personalizado3.jpg" descricao="Brigadeiro Gourmet personalizado">
-            </card-produto>
+            <!--PRIMEIRA LINHA DE PRODUTOS-->
+            <card-produto img="/img/macarons.jpg" descricao="Macaron Clasique"></card-produto>
 
-        <!--TERCEIRA LINHA DE PRODUTOS-->
+            <card-produto img="/img/macaron-personalizado.jpg" descricao="Macarron Fleur Art"></card-produto>
 
-                <card-produto
-                    img="/img/bem-casado.jpg" descricao="Bem-casado Gardevoir">
-                </card-produto>
+            <card-produto img="/img/macaron-personalizado2.jpg" descricao="Macarron Fleur Art"></card-produto>
 
-                <card-produto
-                    img="/img/tartelete.jpg" descricao="Fruit Tartelete">
-                </card-produto>
+            <!--SEGUNDA LINHA DE PRODUTOS-->
+            <card-produto img="/img/brigadeiro-personalizado1.jpg" descricao="Brigadeiro Gourmet personalizado"></card-produto>
 
-                <card-produto
-                    img="/img/flor-de-acucar.jpg" descricao="Sucre Fleur">
-                </card-produto>
+            <card-produto img="/img/brigadeiro-personalizado2.jpg" descricao="Brigadeiro Gourmet personalizado"></card-produto>
+
+            <card-produto img="/img/brigadeiro-personalizado3.jpg" descricao="Brigadeiro Gourmet personalizado"></card-produto>
+
+            <!--TERCEIRA LINHA DE PRODUTOS-->
+            <card-produto img="/img/bem-casado.jpg" descricao="Bem-casado Gardevoir"></card-produto>
+
+            <card-produto img="/img/tartelete.jpg" descricao="Fruit Tartelete"></card-produto>
+
+            <card-produto img="/img/flor-de-acucar.jpg" descricao="Sucre Fleur"></card-produto>
+
         </div>
 
         <div class="button">
             <div class="py-3 d-flex gap-2 d-md-flex justify-content-center" style="width: auto;">
-                <button class="btn-lg botao-orcamento px-5 py-2" type="button" style="color: black;">Faça seu orçamento</button>
+                <button class="btn-lg botao-orcamento px-5 py-2" type="button"><a href="./contato.html" style="text-decoration: none; color: black;">
+                    Faça seu orçamento</a>
+                </button>
             </div>
         </div>
 
         <hr>
+
         <!--BOLOS-->
         <div class="container py-2">
             <h3 class="titulos-produtos">Bolos Gardevoir - principais sabores</h3>
         </div>
 
-        <div class="d-flex flex-wrap gap-5  " style="justify-content: center; margin-top: 50px;">
-              <card-produto 
-                img="/img/bolo-1.jpg" descricao="Pistache, limão siciliano, damasco, amêndoas, nozes;"
-              ></card-produto>
+        <div class="d-flex flex-wrap gap-5" style="justify-content: center; margin-top: 50px;">
 
-               <card-produto 
-                    img="/img/bolo-2.jpg" descricao="Red velvet, frutas vermelhas, mascarpone com frutas silvestres.">
-                </card-produto>
+            <card-produto img="/img/bolo-1.jpg" descricao="Pistache, limão siciliano, damasco, amêndoas, nozes;"></card-produto>
 
-               <card-produto 
-                    img="/img/bolo-3.jpg" descricao="Caramelo salgado, maracujá, Madeleine, Marjolaine.">
-                </card-produto>
-            </div>
+            <card-produto img="/img/bolo-2.jpg" descricao="Red velvet, frutas vermelhas, mascarpone com frutas silvestres."></card-produto>
+
+            <card-produto img="/img/bolo-3.jpg" descricao="Caramelo salgado, maracujá, Madeleine, Marjolaine."></card-produto>
+
         </div>
+
         <div class="button">
             <div class="py-3 d-flex gap-2 d-md-flex justify-content-center" style="width: auto;">
-                <button class="btn-lg botao-orcamento px-5 py-2" type="button" style="color: black;">Faça seu orçamento</button>
+                <button class="btn-lg botao-orcamento px-5 py-2" type="button"><a href="./contato.html" style="text-decoration: none; color: black;">
+                    Faça seu orçamento</a>
+                </button>
             </div>
         </div>
 
@@ -178,80 +174,67 @@
             <h3 class="titulos-produtos">Menu de abril</h3>
         </div>
 
-        
         <div class="d-flex flex-wrap gap-3" style="justify-content: center; margin-top: 50px;">
-        <!--PRIMEIRA COLUNA DO MENU-->
-      
-                <card-produto
-                    img="/img/opera.jpg" descricao="Bohème Opéra">
-                </card-produto>
 
-                <card-produto
-                    img="/img/sorbet-limao.jpg" descricao="Citron sorbet">
-                </card-produto>
+            <!--PRIMEIRA COLUNA DO MENU-->
+            <card-produto img="/img/opera.jpg" descricao="Bohème Opéra"></card-produto>
 
-                <card-produto
-                    img="/img/bolo-menta-chocolate.jpg" descricao="Bolo Menthe">
-                </card-produto>
-       
+            <card-produto img="/img/sorbet-limao.jpg" descricao="Citron sorbet"></card-produto>
 
-        <!--SEGUNDA COLUNA DE PRODUTOS-->
- 
-            <card-produto
-                img="/img/sonho-recheado.jpg" descricao="Sonho Recheado">
-            </card-produto>
+            <card-produto img="/img/bolo-menta-chocolate.jpg" descricao="Bolo Menthe"></card-produto>
 
-            <card-produto
-                img="/img/croissant.jpg" descricao="Gardevoir Croissant">
-            </card-produto>
+            <!--SEGUNDA COLUNA DE PRODUTOS-->
+            <card-produto img="/img/sonho-recheado.jpg" descricao="Sonho Recheado"></card-produto>
 
-            <card-produto
-                img="/img/eclair.jpg" descricao="Éclair’s Amour">
-            </card-produto>
+            <card-produto img="/img/croissant.jpg" descricao="Gardevoir Croissant"></card-produto>
 
-        <!--TERCEIRA LINHA DE PRODUTOS-->
+            <card-produto img="/img/eclair.jpg" descricao="Éclair’s Amour"></card-produto>
 
+            <!--TERCEIRA LINHA DE PRODUTOS-->
+            <card-produto img="/img/cupcake-blueberry.jpg" descricao="Cupcake de mirtilo"></card-produto>
 
-                <card-produto
-                    img="/img/cupcake-blueberry.jpg" descricao="Cupcake de mirtilo">
-                </card-produto>
+            <card-produto img="/img/macarons.jpg" descricao="Classique Macarron’s"></card-produto>
 
-                <card-produto
-                    img="/img/macarons.jpg" descricao="Classique Macarron’s">
-                </card-produto>
+            <card-produto img="/img/doce-fino.jpg" descricao="Degustação de doces finos"></card-produto>
 
-                <card-produto
-                    img="/img/doce-fino.jpg" descricao="Degustação de doces finos">
-                </card-produto>
-            </div>
-    <!--botao-->
+        </div>
+
+        <!--botao-->
         <div class="button">
             <div class="py-3 d-flex gap-2 d-md-flex justify-content-center" style="width: auto;">
-                <button class="btn-lg botao-orcamento px-5 py-2" type="button" style="color: black;">Agende seu horário</button>
+                <button class="btn-lg botao-orcamento px-5 py-2" type="button"><a href="./contato.html" style="text-decoration: none; color: black;">
+                    Agende seu horário
+                </button>
             </div>
         </div>
+
         <hr>
-    <!--TEXTO DO FINAL-->
+
+        <!--TEXTO DO FINAL-->
         <article>
             <section id="encomendas" style="align-items: center; margin-top: 50px; font-family:'Jacques Francois', serif; font-size: 16px; padding-left: 200px; padding-right: 200px;">
-                <p>As encomendas são realizadas a partir de 100 unidades, garantindo uma produção cuidadosa e padronizada, 
+                <p>
+                    As encomendas são realizadas a partir de 100 unidades, garantindo uma produção cuidadosa e padronizada, 
                     ideal para surpreender seus convidados com elegância e sofisticação. 
                     Para assegurar a melhor experiência, é necessário consultar previamente nossa agenda e disponibilidade, 
                     já que cada produção é planejada com atenção total aos detalhes.
                 </p>
+
                 <div class="text-center py-4">
                     <img src="/img/vitrine.jpg" alt="Imagem de uma vitrine de confeitaria com doces em tons caramelos e pequenas plaquinhas com o preço na frente;" style="width: 600px;">
                 </div>
-                <p style="font-size: 18px; text-align: center;">Com a Gardevoir, até os momentos mais simples ganham um novo significado — 
+
+                <p style="font-size: 18px; text-align: center;">
+                    Com a Gardevoir, até os momentos mais simples ganham um novo significado — 
                     porque <span style="color:#8F2738;font-size: 19px;">todo dia pode ser especial quando se tem o doce certo.</span>
                 </p>
+            </section>
+        </article>
+
     </main>
+
     <footer>
         <ins-footer></ins-footer>
     </footer>
 </body>
-
-
-
-
 </html>
