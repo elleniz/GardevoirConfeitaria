@@ -1,0 +1,16 @@
+.col-spacing {
+    margin-left: 80px; 
+  }
+
+.btnduv {
+  background-color: #F0C260;
+  color: #2B2B2B;            
+  padding: 10px 42px;       
+  font-size: 18.5px; 
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}

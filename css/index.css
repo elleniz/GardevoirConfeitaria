@@ -1,0 +1,191 @@
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* main sem margin-top */
+main {
+  margin: 0; 
+  padding: 0;
+}
+
+.header-text {
+  padding-left: 0;      
+  margin-left: -220px;    
+}
+
+
+.btn-custom {
+  background-color: #F0C260;
+  color: #2B2B2B;            
+  padding: 10px 28px;       
+  font-size: 18.5px; 
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-custom:hover {
+  background-color: #a77e26;  
+  transform: scale(1.05);     
+}
+
+.img-bolosection {
+  position: relative;
+  left: 400px;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bodysection {
+  background-color: #2B2B2B;
+}
+
+.section-cursos .row {
+  margin: 0;
+}
+
+/* ASIDE */
+/* Deixa o aside fixo do topo até o fim da tela */
+.widget-avaliacoes {
+  position: sticky;
+  top: 100px; /* distância do topo, ajuste se tiver header fixo */
+  max-height: calc(100vh - 100px); /* altura máxima sem ultrapassar a tela */
+  overflow-y: auto; /* adiciona scroll interno se os cards forem muitos */
+  padding-right: 15px;
+}
+
+/* CARDS AVALIAÇÃO */
+.card-avaliacao {
+  background: transparent;
+  border-radius:  0 0 15px 15px;
+  overflow: hidden;
+  border: none;
+  
+}
+
+
+.card-topo img {
+  margin-left: auto; 
+  width: 45px;
+  height: 45px;
+}
+
+/* CURSOS */
+.curso-card {
+  border-radius: 25px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.curso-card img {
+    object-fit: cover
+;}
+
+.curso-card .card-body {
+  background: #D9D9D9;
+}
+
+.card-avaliacao .card-body {
+  background: transparent;
+}
+
+.conteudo-direita {
+  padding-left: 100px;
+  max-width: 1000px;
+}
+
+.card-topo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  background: #8F2738;
+  padding: 12px 16px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card-topo strong {
+  margin-right: 12px; 
+  font-size: 16px;
+  color: #fff;
+}
+
+.estrelas {
+  color: #661647; 
+  font-size: 32px; 
+  margin-bottom: 8px; 
+}
+
+.btncursos {
+  background-color: #F0C260;
+  font-family: 'Jacques Francois', serif;
+  color: #2B2B2B;            
+  padding: 10px 42px;       
+  font-size: 18.5px; 
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btncursos2 {
+  background-color: #E6A9B0;
+  font-family: 'Jacques Francois', serif;
+  color: #2B2B2B;            
+  padding: 10px 42px;       
+  font-size: 18.5px; 
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+
+
+
+.testimonial-card {
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 400px;
+    background-color: #f0c2ca;
+}
+
+.testimonial-header {
+    background-color: #8e1f3b;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.testimonial-header img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.testimonial-body {
+    background-color: #e0e0e0; /* fundo da citação */
+    padding: 20px;
+    position: relative;
+}
+
+
