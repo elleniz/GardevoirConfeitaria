@@ -6,12 +6,12 @@ class CardCurso extends HTMLElement {
 
     this.innerHTML = `
       <div class="card curso-card">
-        <img style="widht: 200px; height: 200px" src="${imagem}">
+        <img src="${imagem}">
         <div class="card-body">
           <h6>${titulo}</h6>
           <p>${descricao}</p>
           <div class="estrelas">★★★★★</div>
-          <button class="btn btn-dark w-100 mt-2">Ver curso</button>
+          <button class="btn w-100 mt-2">Ver curso</button>
         </div>
       </div>
     `;

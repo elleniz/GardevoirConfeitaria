@@ -3,189 +3,206 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="/css/sobrenos.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
   <title>Sobre nós</title>
+
+  <link rel="stylesheet" href="/css/styleindex.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/navbar.css">
+  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/sobrenos.css">
 
   <script src="/javascript/menu-navegacao.js" defer></script>
   <script src="/javascript/footer.js" defer></script>
-  <script src="/javascript//card-avaliacao.js" defer></script>
+  <script src="/javascript/card-avaliacao.js" defer></script>
   <script src="/javascript/card-curso.js" defer></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Jacques+Francois&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
-<menu-navegacao></menu-navegacao>
+<header class="fixed-top">
+    <nav>
+        <menu-navegacao></menu-navegacao>
+    </nav>
+</header>
 
 <main>
 
-  <!--  HERO -->
-   <section style="background: linear-gradient(to right, #434343, #464646); min-height: 500px;">
-  <div class="container py-5">
-    <div class="d-flex align-items-center" style="gap: 50px;"> <!-- flexbox com gap -->
-
-     
-      <div style="flex: 1; text-align: center;">
-        <img src="/img/fachada-confeitaria.webp" style="width: 550px; max-width: 100%;">
-      </div>
-
-
-      <div style="flex: 1;">
-        <h1 style="color: #F0C260;">Conheça a história da Gardevoir Confeitaria, há mais de 20 anos no Brasil, com mais de 12 prêmios  e reconhecimentos internacionais.</h1>
-        <p style="color: #FFFAF9; font-size: 20px;">Hoje somos referência em confeitaria na América Latina e no mundo, mas nem sempre foi assim. Nesta página descrevemos nossa trajetória completa para que você se sinta cada vez mais próximo da Gardevoir. </p>
-        <button class="btnduv">Dúvidas? Contate-nos</button>
-      </div>
-
-    </div>
-  </div>
-</section>
-<section style="background: linear-gradient(to right, #ffffff, #ffffff); padding: 80px 0;">
-  <div class="container-fluid"> <!-- container-fluid para ocupar 100% da tela -->
-
-    <!-- Título da seção -->
-    <h2 class="text-center mb-5" style="color: #F0C260; font-size: 80px; font-weight: bold;">AS CHEF’S CRIADORAS</h2>
-
-    <!-- Primeira chef: texto esquerda, imagem direita -->
-    <div class="d-flex align-items-center flex-wrap">
-      <div style="flex: 1; margin-left: 950px; max-width: 100%;">
-        <h3 style="color: #8F2738;">Cíntia Luana Mascavo</h3>
-        <p>
-          Desde muito jovem, Cíntia já demonstrava um olhar sensível para a gastronomia, mas foi ao ingressar em um curso de confeitaria profissional que descobriu sua verdadeira paixão. Determinada a se aprofundar, mudou-se para Paris, onde estudou técnicas clássicas e vivenciou de perto o rigor e a poesia da confeitaria francesa.
-          Entre vitrines impecáveis e sabores perfeitamente equilibrados, algo sempre a inquietava: a lembrança do Brasil. Ao retornar, percebeu que, embora houvesse talento, ainda faltava protagonismo à confeitaria como experiência sofisticada e sensorial. Sentia falta do cuidado nos detalhes, da narrativa por trás de cada doce, da valorização da técnica.
-          Foi dessa inquietação que nasceu seu propósito: transformar a forma como a confeitaria era vista no Brasil. Mais do que reproduzir receitas, Cíntia queria criar experiências — doces que contassem histórias, que despertassem emoções e que elevassem o padrão da confeitaria nacional a um novo patamar.
-        </p>
-      </div>
-      <div style="flex: 1; text-align: right; max-width: 50%;">
-        <img src="/img/cintia.jpg" style="width: 100%; max-width: 450px;">
+  <section class="parte-escura py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center">
+          <img src="/img/fachada-confeitaria.webp" style="max-width: 550px;">
+        </div>
+        <div class="col-md-6" style="font-family: 'Jacques Francois', serif; text-align: center;">
+          <h1 style="color: #F0C260; font-size: 25px; text-align: justify;">Conheça a história da Gardevoir Confeitaria, há mais de 20 anos no Brasil, com mais de 12 prêmios e reconhecimentos internacionais.</h1>
+          <p style="color: #FFFAF9; font-size: 16px; text-align: justify; padding: 20px;">Hoje somos referência em confeitaria na América Latina e no mundo, mas nem sempre foi assim. Nesta página descrevemos nossa trajetória completa para que você se sinta cada vez mais próximo da Gardevoir.</p>
+          <button class="btnduvidas">Dúvidas? Contate-nos</button>
+        </div>
       </div>
     </div>
+  </section>
 
-    <!-- Segunda chef: imagem esquerda, texto direita -->
-    <div class="d-flex align-items-center mb-5 flex-wrap">
-      <div style="flex: 1; text-align: left; max-width: 50%;">
-        <img src="/img/clara.jpg" style="width: 100%; max-width: 850px;">
+  <section class="bg-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="titulos-laterais">AS<br>
+            CHEF'S<br>
+            CRIA<br>
+            DORAS</h2>
+        </div>
+        
+        <div class="col-md-9">
+          <div class="row align-items-center mb-5">
+            <div class="col-md-7 texto-chef">
+              <h3 style="color: #8F2738; font-family: 'Jacques Francois', serif; font-weight: bold; text-align: right; padding-bottom: 20px;">Cíntia Luana Mascavo</h3>
+              <p>Desde muito jovem, Cíntia já demonstrava um olhar sensível para a gastronomia, mas foi ao ingressar em um curso de confeitaria profissional que descobriu sua verdadeira paixão. Determinada a se aprofundar, mudou-se para Paris, onde estudou técnicas clássicas e vivenciou de perto o rigor e a poesia da confeitaria francesa. </p>
+              <p>Entre vitrines impecáveis e sabores perfeitamente equilibrados, algo sempre a inquietava: a lembrança do Brasil. Ao retornar, percebeu que, embora houvesse talento, ainda faltava protagonismo à confeitaria como experiência sofisticada e sensorial. Sentia falta do cuidado nos detalhes, da narrativa por trás de cada doce, da valorização da técnica.</p>
+              <p>Foi dessa inquietação que nasceu seu propósito: transformar a forma como a confeitaria era vista no Brasil. Mais do que reproduzir receitas, Cíntia queria criar experiências — doces que contassem histórias, que despertassem emoções e que elevassem o padrão da confeitaria nacional a um novo patamar.</p>
+            </div>
+            <div class="col-md-5 text-end">
+              <img src="/img/cintia.jpg" class="img-fluid" style="width: 400px;">
+            </div>
+          </div>
+        </div>
       </div>
-      <div style="flex: 1; margin-left: -250px; max-width: 50%;">
-        <h3 style="color: #8F2738;">Chef Maria Costa</h3>
-        <p>
-          Clara sempre foi movida pela curiosidade e pelo desejo de criar. Ao iniciar sua formação em confeitaria, percebeu rapidamente que aquele universo ia muito além do que imaginava — era arte, precisão e expressão. Decidida a explorar esse mundo em sua forma mais autêntica, partiu para Paris, onde se especializou em pâtisserie clássica.
-          Na França, encantou-se com a cultura em torno da confeitaria: o respeito pelos ingredientes, a estética refinada e a experiência quase ritualística de degustar um doce. No entanto, ao voltar ao Brasil, sentiu um contraste marcante. Faltava, em muitos lugares, essa mesma valorização — não apenas do sabor, mas da experiência completa.
-          Foi então que Clara enxergou uma oportunidade: trazer ao Brasil não apenas técnicas, mas uma nova forma de viver a confeitaria. Seu objetivo passou a ser claro — criar algo que unisse a sofisticação europeia com a identidade brasileira, oferecendo ao público não apenas doces, mas momentos memoráveis.
 
-          Entre vitrines impecáveis e sabores perfeitamente equilibrados, algo sempre a inquietava: a lembrança do Brasil. Ao retornar, percebeu que, embora houvesse talento, ainda faltava protagonismo à confeitaria como experiência sofisticada e sensorial. Sentia falta do cuidado nos detalhes, da narrativa por trás de cada doce, da valorização da técnica.
+      <div class="row align-items-center mt-5 py-5 border-top">
+        <div class="col-md-5">
+          <img src="/img/clara.jpg" class="img-fluid" style="object-fit: cover; width: 450px; height: 600px;">
+        </div>
+        <div class="col-md-7 ps-md-5 texto-chef">
+          <h3 style="color: #8F2738; font-family: 'Jacques Francois', serif; font-weight: bold; padding-bottom: 20px;">Clara Santos Mascavo</h3>
+          <p>Clara sempre foi movida pela curiosidade e pelo desejo de criar. Ao iniciar sua formação em confeitaria, percebeu rapidamente que aquele universo ia muito além do que imaginava — era arte, precisão e expressão. Decidida a explorar esse mundo em sua forma mais autêntica, partiu para Paris, onde se especializou em pâtisserie clássica.</p>
+          <p>Na França, encantou-se com a cultura em torno da confeitaria: o respeito pelos ingredientes, a estética refinada e a experiência quase ritualística de degustar um doce. No entanto, ao voltar ao Brasil, sentiu um contraste marcante. Faltava, em muitos lugares, essa mesma valorização — não apenas do sabor, mas da experiência completa.</p>
+          <p>Foi então que Clara enxergou uma oportunidade: trazer ao Brasil não apenas técnicas, mas uma nova forma de viver a confeitaria. Seu objetivo passou a ser claro — criar algo que unisse a sofisticação europeia com a identidade brasileira, oferecendo ao público não apenas doces, mas momentos memoráveis.</p>
+          <p>Entre vitrines impecáveis e sabores perfeitamente equilibrados, algo sempre a inquietava: a lembrança do Brasil. Ao retornar, percebeu que, embora houvesse talento, ainda faltava protagonismo à confeitaria como experiência sofisticada e sensorial. Sentia falta do cuidado nos detalhes, da narrativa por trás de cada doce, da valorização da técnica.</p>
+          <p>Foi dessa inquietação que nasceu seu propósito: transformar a forma como a confeitaria era vista no Brasil. Mais do que reproduzir receitas, Cíntia queria criar experiências — doces que contassem histórias, que despertassem emoções e que elevassem o padrão da confeitaria nacional a um novo patamar.
+    </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          Foi dessa inquietação que nasceu seu propósito: transformar a forma como a confeitaria era vista no Brasil. Mais do que reproduzir receitas, Cíntia queria criar experiências — doces que contassem histórias, que despertassem emoções e que elevassem o padrão da confeitaria nacional a um novo patamar.
-        </p>
+  <section class="parte-escura py-5">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h2 class="titulos-laterais">HISTÓ<br>RIA DA<br>GARDE<br>VOIR</h2>
+        </div>
+
+        <div class="col-md-5 pt-4 align-items-center">
+          <p style=" font-family: 'Inter', sans-serif; font-size: 16px; padding-top: 80px;"><span style="font-size: 40px; color: #A1E4C3;">A </span> Gardevoir Confeitaria nasceu de um sonho audacioso: trazer ao Brasil o mais alto nível da confeitaria mundial, unindo técnica, sensibilidade e excelência em cada criação. Nossa história teve início no ano 2000, em Curitiba, quando duas jovens confeiteiras deram vida a um pequeno ateliê dedicado à produção de macarons e bolos especiais — elaborados com técnicas ainda pouco difundidas no país. O sucesso foi imediato.</p>
+        </div>
+        
+        <div class="col-md-3 text-end pt-4">
+          <img src="/img/atelie-de-bolos.jpg" style="max-width: 300px;">
+        </div>
       </div>
+
+      <div class="row align-items-center mb-5 pt-5">
+        <div class="col-md-6">
+          <img src="/img/premio.jpg">
+        </div>
+        
+        <div class="col-md-6 ps-md-5 align-items-center">
+          <p style=" font-family: 'Inter', sans-serif; font-size: 16px;"><span style="font-size: 40px; color: #A1E4C3;">E</span>m 2004, impulsionadas pela crescente demanda, expandimos nosso espaço e passamos a oferecer também a experiência de consumo no local, marcando o início de uma nova fase. No ano seguinte, 2005, recebemos a visita do renomado chef Pierre Hermé, que nos concedeu elogios memoráveis e deu início a uma colaboração que contribuiria significativamente para o nosso crescimento. </p>
+          <p>O reconhecimento internacional veio em 2008, com o prestigiado Coupe du Monde de la Pâtisserie, além de importantes prêmios nacionais como o Prêmio Prazeres da Mesa e o Veja Comer & Beber. Com isso, ampliamos novamente nosso espaço, tornando-o capaz de receber eventos exclusivos e experiências gastronômicas completas.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center pt-5">
+        <div class="col-md-6">
+          <p style=" font-family: 'Inter', sans-serif; font-size: 16px; text-align: right;"><span style="font-size: 40px; color: #A1E4C3;">N</span>os anos seguintes, consolidamos nossa presença na mídia ao participar de programas como MasterChef Brasil e ao sermos destaque em revistas como Vogue Brasil e Prazeres da Mesa. Em 2015, conquistamos novos prêmios internacionais e inauguramos nossa primeira filial na França, sob a direção do chef que nos acompanhava desde o início dessa trajetória. </p>
+          <p style="text-align: right;">Entre 2016 e 2017, fomos reconhecidos como referência em confeitaria na América Latina por instituições como Latin America's 50 Best Restaurants, consolidando ainda mais nossa posição de destaque. Em 2018, iniciamos um novo capítulo: o lançamento de cursos e workshops exclusivos, permitindo que nossos clientes vivenciassem a experiência Gardevoir de forma prática e imersiva.</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <img src="/img/masterchef.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-white py-5">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <img src="/img/aula-confeitaria.jpg" style="width: 500px; height: 300px; object-fit: cover;">
+        </div>
+        <div class="col-md-7 ps-md-5">
+          <p style=" font-family: 'Inter', sans-serif; font-size: 16px;;"><span style="color: #8F2738; font-size: 30px;">P</span>arcerias ao lado de chefs renomados, começamos com dois cursos principais — macarons e técnicas com chocolate — e, em 2020, fomos reconhecidos internacionalmente com o prêmio World Culinary Awards na categoria de melhores experiências educacionais em gastronomia. Desde então, ampliamos nossa programação para quatro cursos mensais, mantendo um padrão elevado de qualidade e sofisticação.<br><br>O ano de 2022 marcou um novo ápice em nossa história, com a conquista de reconhecimento pela excelência gastronômica comparável às mais altas distinções internacionais, consolidando a Gardevoir como referência absoluta em confeitaria de luxo. Expandimos novamente nosso espaço, criando ambientes ainda mais exclusivos para eventos, cursos e experiências personalizadas.</p>
+        </div>
+      </div>
+
+    </section> 
+
+      <div class="row">
+        <div class="col-2">
+
+        </div>
+        <div class="col-8 align-items-center">
+          <p style=" font-family: 'Inter', sans-serif; text-align: center; font-size: 18px;">Nos anos seguintes, acumulamos mais de oito importantes prêmios internacionais, como o International Chocolate Awards e o The Best Chef Awards, atendendo clientes de diversas partes do mundo e levando nossa assinatura a novos horizontes.</p>
+        </div>
+
+        <div class="col-2">
+
+        </div>
+
+        <div class="row">
+            <div style="align-items: center; text-align: center;">
+                <img src="/img/premio-de-ouro.avif" class="" style="max-width: 500px;">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 align-items-center">
+            <p style=" font-family: 'Inter', sans-serif; text-align: center; font-size: 18px;">E agora, em 2027, a Gardevoir Brasil se torna sede de um dos maiores eventos do setor: o Gardevoir International Pâtisserie Summit — um encontro global que reúne grandes nomes da confeitaria, experiências imersivas, workshops exclusivos e apresentações que celebram a arte doce em sua forma mais elevada.</p>
+
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div style="align-items: center; text-align: center;">
+                <img src="/img/evento.jpg" style="object-fit: cover; width: 700px; height: 300px;">
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-2"></div>
+            <div class="col-8 align-items-center">
+            <p style=" font-family: 'Inter', sans-serif; text-align: center; font-size: 18px; padding-top: 50px;">Agradecemos profundamente a todos os nossos clientes, parceiros e colaboradores — são vocês que tornam possível a realização desse sonho todos os dias.</p>
+        </div>
+            <div class="col-2"></div>       
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="parte-escura text-center py-5">
+    <div class="container py-4">
+      <p style=" font-family: 'Inter', sans-serif; font-size: 22px; max-width: 800px; margin: 0 auto 40px; text-align: center;">Levamos a sofisticação da confeitaria francesa ao Brasil e, com orgulho, compartilhamos a criatividade e a excelência brasileira com o mundo.</p>
+      <img src="/img/art-doce.jpg" class="img-fluid" style="object-fit: cover; width: 500px; height: 200px;">
     </div>
 
-  </div>
-</section>
-<section style="background: linear-gradient(to right, #434343, #464646); padding: 80px 0;">
-  <div class="container-fluid">
-
-    <!-- Título da seção -->
-    <h2 style="color: #F0C260; font-size: 80px; font-weight: bold; text-align: left; margin-bottom: 80px; margin-left: 160px; margin-top: 20px;">
-        HISTÓ<br>RIA DA<br> GARDE<br>VOIR
-    </h2>
-
-    <!-- Primeira parte: texto esquerda, imagem direita -->
-    <div class="d-flex align-items-center flex-wrap mb-5">
-      <div style="flex: 1; margin-left: 1250px; color: #FFFFFF; font-size: 25px;">
-        <p>
-         A Gardevoir Confeitaria nasceu de um sonho audacioso: trazer ao Brasil o mais alto nível da confeitaria mundial, unindo técnica, sensibilidade e excelência em cada criação. Nossa história teve início no ano 2000, em Curitiba, quando duas jovens confeiteiras deram vida a um pequeno ateliê dedicado à produção de macarons e bolos especiais — elaborados com técnicas ainda pouco difundidas no país. O sucesso foi imediato.
-        </p>
-      </div>
-      <div style="flex: 1; text-align: right;">
-        <img src="/img/atelie-de-bolos.jpg" style="width: 450px; max-width: 100%;">
-      </div>
-    </div>
-
-    <!-- Segunda parte: imagem esquerda, texto direita -->
-    <div class="d-flex align-items-center flex-wrap">
-      <div style="flex: 1; text-align: left;">
-        <img src="/img/premio.jpg" style="width: 650px; max-width: 100%;">
-      </div>
-      <div style="flex: 1; margin-left: -950px; font-size: 25px;  color: #FFFFFF;">
-        <p>
-          <br>Em 2004, impulsionadas pela crescente demanda, expandimos nosso espaço e<br> passamos a oferecer também a experiência de consumo no local, marcando o início de <br> uma nova fase. No ano seguinte, 2005, recebemos a visita do renomado chef Pierre Hermé,<br> que nos concedeu elogios memoráveis e deu início a uma colaboração que contribuiria significativamente<br> para o nosso crescimento.
-O reconhecimento internacional veio em 2008, com o prestigiado Coupe du Monde<br> de la Pâtisserie, além de importantes prêmios nacionais como o Prêmio Prazeres da Mesa e o Veja Comer & Beber<br>. Com isso, ampliamos novamente nosso espaço, tornando-o capaz de receber eventos exclusivos<br> e experiências gastronômicas completas
-        </p>
-      </div>
-    </div>
-     <!-- terceira parte: imagem esquerda, texto direita -->
-      <div class="d-flex align-items-center flex-wrap mb-5">
-      <div style="flex: 1;margin-top: 90px; margin-left: 650px; color: #FFFFFF; font-size: 25px;">
-        <p>
-        Nos anos seguintes, consolidamos nossa presença na mídia ao participar de programas como MasterChef Brasil e ao sermos destaque em revistas como Vogue Brasil e Prazeres da Mesa. Em 2015, conquistamos novos prêmios internacionais e inauguramos nossa primeira filial na França, sob a direção do chef que nos acompanhava desde o início dessa trajetória.
-Entre 2016 e 2017, fomos reconhecidos como referência em confeitaria na América Latina por instituições como Latin America's 50 Best Restaurants, consolidando ainda mais nossa posição de destaque. Em 2018, iniciamos um novo capítulo: o lançamento de cursos e workshops exclusivos, permitindo que nossos clientes vivenciassem a experiência Gardevoir de forma prática e imersiva.
-        </p>
-      </div>
-      <div style="flex: 1; text-align: right;">
-        <img src="/img/masterchef.jpg" style="width: 650px; max-width: 100%;">
-      </div>
-    </div>
-  <!-- quartasdp  parte: imagem esquerda, texto direita -->
-  </div>
-</section>
-<section style="background: linear-gradient(to right, #ffffff, #ffffff); padding: 80px 20px;">
-        <div class="d-flex align-items-center flex-wrap">
-      <div style="flex: 1; text-align: left;">
-        <img src="/img/aula-confeitaria.jpg" style="width: 450px; max-width: 100%;">
-      </div>
-      <div style="flex: 1; margin-left: -1250px; font-size: 25px;  color: #000000;">
-        <p>
-          Com parcerias ao lado de chefs renomados, começamos com dois cursos principais<br> — macarons e técnicas com chocolate — e, em 2020, fomos reconhecidos internacionalmente<br> com o prêmio World Culinary Awards na categoria de melhores experiências educacionais em gastronomia.<br> Desde então, ampliamos nossa programação para quatro cursos mensais, mantendo um padrão <br>elevado de qualidade e sofisticação.
-<br> <br> O ano de 2022 marcou um novo ápice em nossa história, com a conquista de reconhecimento pela<br> excelência gastronômica comparável às mais altas distinções internacionais, consolidando a Gardevoir<br> como referência absoluta em confeitaria de luxo. Expandimos novamente nosso espaço, criando ambientes<br> ainda mais exclusivos para eventos, cursos e experiências personalizadas.
-        </p>
-      </div>
-      <!-- segunda parte do section-->
-      <!-- texto em cima-->
-    </div>
-      <div style="color: #000000; margin-left: 720px; max-width: 900px; margin-top: 80px; font-size: 22px;">
-      <p>
-       Nos anos seguintes, acumulamos mais de oito importantes prêmios internacionais, como o International Chocolate Awards e o The Best Chef Awards, atendendo clientes de diversas partes do mundo e levando nossa assinatura a novos horizontes.
-      </p>
-    </div>
-    <!-- Imagem embaixo -->
-    <div style="margin-top: 30px;">
-      <img src="/img/premio-de-ouro.avif" style="width: 500px; margin-left: 870px; max-width: 800px;">
-    </div>
-         <!-- texto em cima-->
-    </div>
-      <div style="color: #000000; margin-left: 720px; max-width: 900px; margin-top: 80px; font-size: 22px;">
-      <p>
-      E agora, em 2027, a Gardevoir Brasil se torna sede de um dos maiores eventos do setor: o Gardevoir International Pâtisserie Summit — um encontro global que reúne grandes nomes da confeitaria, experiências imersivas, workshops exclusivos e apresentações que celebram a arte doce em sua forma mais elevada.
-      </p>
-    </div>
-    <!-- Imagem embaixo -->
-    <div style="margin-top: 30px;">
-      <img src="/img/evento.jpg" style="width: 500px;margin-left: 870px; max-width: 800px;">
-    </div>
-    <p style="margin-top: 20px; margin-left: 660px; font-size: 24px;"> 
-      Agradecemos profundamente a todos os nossos clientes, parceiros e colaboradores<br> — são vocês que tornam possível a realização desse sonho todos os dias
-      </p>
-</section>
-<section style="background: linear-gradient(to right, #434343, #464646); padding: 80px 0;">
- <div class="d-flex align-items-center flex-wrap mb-5">
-      <div style="flex: 1; margin-left: 1250px; color: #FFFFFF; font-size: 25px;">
-        <p>
-         Levamos a sofisticação da confeitaria francesa ao Brasil e, com orgulho, compartilhamos a criatividade e a excelência brasileira com o mundo.
-        </p>
-      </div>
-      <div style="flex: 1; text-align: right;">
-        <img src="/img/mulhersegunrabolo" style="width: 450px; max-width: 100%;">
-      </div>
-    </div>
-</section>
- 
+    <img src="/img/logo.png" height="300px" style="margin-bottom: -100px;">
+    <hr>
+    <p>o ápice da confeitaria na América Latina.</p>
+  </section>
+   
 </main>
+
 
 <ins-footer></ins-footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

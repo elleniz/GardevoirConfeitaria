@@ -8,7 +8,7 @@ class Navbar extends HTMLElement {
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
             <li class="nav-item navbar-text active">
-              <a class="nav-link" href="#index.html"style="color: #F0C260";>Início</a>
+              <a class="nav-link" href="/index.html" style="color: #F0C260";>Início</a>
             </li>
             <li class="nav-item navbar-text">
               <a class="nav-link" href="./produtos.html">Produtos</a>
@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
               <a class="nav-link" href="./localizacao.html">Localização</a>
             </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="#sobre-nos.html">Sobre nós</a>
+              <a class="nav-link" href="./sobrenos.html">Sobre nós</a>
             </li>
             <li class="nav-item navbar-text">
               <a class="nav-link" href="./contato.html">Contate-nos</a>

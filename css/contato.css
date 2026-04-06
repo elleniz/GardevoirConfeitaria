@@ -34,3 +34,11 @@
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
+
+.enviar-contato{
+  background-color: #F0C260;
+}
+
+.enviar-contato:hover{
+  background-color: #eda200;
+}

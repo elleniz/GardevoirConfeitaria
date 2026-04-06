@@ -141,6 +141,10 @@ main {
   transition: background-color 0.3s, transform 0.2s;
 }
 
+.btncursos:hover{
+    background-color: #a77e26;
+}
+
 .btncursos2 {
   background-color: #E6A9B0;
   font-family: 'Jacques Francois', serif;
@@ -155,7 +159,17 @@ main {
   transition: background-color 0.3s, transform 0.2s;
 }
 
+.btncursos2:hover{
+    background-color: #d5727d;
+}
 
+.curso-index{
+  background-color: #F0C260;
+}
+
+.curso-index:hover {
+  background-color: #e4a721;
+}
 
 
 .testimonial-card {
@@ -188,4 +202,22 @@ main {
     position: relative;
 }
 
+
+
+.curso-card button {
+  background-color: #F0C260; 
+  color: #2B2B2B;                
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+ }
+
+ .curso-card button:hover{
+  background-color: #e4c528;
+  border: none;
+  box-shadow: none; /* remove aquele brilho azul ao clicar */
+}
 

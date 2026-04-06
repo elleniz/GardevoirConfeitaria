@@ -4,6 +4,8 @@ body{
   background-color: #FFFAF9;    
   margin: 0;
   padding-top: 80px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 header{
@@ -28,4 +30,30 @@ i:hover {
   color: white;
 }
 
+style.css
 
+
+.botao-saiba-mais {
+  background-color: #F0C260; 
+  color: #2B2B2B;
+  padding: 10px 42px; 
+  font-family: 'Abhaya Libre', serif;           
+  font-weight: bold;         
+  border-radius: 450px;        
+  border: none;               
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.img-curso-ovo:hover{
+  transform: scale(1.01);
+
+}
+
+.botao-ovo-inscreva-se {
+  background-color: #F0C260;
+}
+
+.botao-ovo-inscreva-se:hover{
+  background-color: #f1a809;
+}

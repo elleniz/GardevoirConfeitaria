@@ -2,15 +2,37 @@
     margin-left: 80px; 
   }
 
-.btnduv {
+.btnduvidas {
   background-color: #F0C260;
   color: #2B2B2B;            
   padding: 10px 42px;       
   font-size: 18.5px; 
-  font-family: 'Abhaya Libre', serif;           
-  font-weight: bold;         
+  font-family: 'Jacques Francois', serif;
   border-radius: 450px;        
   border: none;               
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
 }
+
+.btnduvidas:hover{
+    background-color: #e2aa30;
+}
+
+.titulos-laterais { 
+    color: #F0C260; 
+    font-family: 'Gloock', serif; 
+    font-size: 50px; 
+    font-weight: bold; 
+    line-height: 1.1; 
+}
+
+.texto-chef{ 
+    font-family: 'Inter', sans-serif;    
+    text-align: justify; 
+}
+
+.parte-escura{ 
+    background: linear-gradient(to right, #434343, #464646); 
+    color: #FFFFFF; 
+}
+    .btn-contato-ajuste { background-color: transparent; border: 1px solid #F0C260; color: #F0C260; padding: 10px 20px; transition: 0.3s; }
+    .btn-contato-ajuste:hover { background-color: #F0C260; color: #000; }

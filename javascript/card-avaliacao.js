@@ -5,18 +5,15 @@ class CardAvaliacao extends HTMLElement {
     const texto = this.getAttribute("texto")
 
     this.innerHTML = `
-        <body class="d-flex justify-content-center align-items-center vh-100">
-            <div class="testimonial-card shadow">
+            <div class="testimonial-card shadow" >
                 <div class="testimonial-header">
                     <h5 class="mb-0">${nome}</h5>
-                    <img src="${foto}">
+                    <img src="${foto}" style="border-radius: 50%; width: 50px; height: 50px; object-fit: cover;">
                 </div>
-                <div class="testimonial-body">
+                <div class="testimonial-body d-flex align-items-center justify-content-center" style="height: 150px; text-align: center; padding: 15px;">
                     <p class="mb-0">${texto}</p>
                 </div>
             </div>
-        </body>
-        </html>
     `;
   }
 }

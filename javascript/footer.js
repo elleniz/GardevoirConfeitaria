@@ -13,12 +13,12 @@ class Footer extends HTMLElement {
                     <div style= "position: absolute; left: 50%; text-align: left;">
                         <ul class="footer-link"style="list-style: none; padding: 0; margin: 0;">
                             <li class="bottom-menu" style="color: #F0C260;">Páginas</li>
-                            <li class="bottom-menu footer-link" style="margin-top: 15px"><a class="footer-link" href=#>Início</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./produtos.html> Produtos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./cursos.html>Cursos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./localizacao.html>Localização</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=#>Sobre nós</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href=./contato.html>Contate-nos</a></li>
+                            <li class="bottom-menu footer-link" style="margin-top: 15px"><a class="footer-link" href="/index.html">Início</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href="./produtos.html"> Produtos</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href="./cursos.html">Cursos</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href="./localizacao.html">Localização</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href="sobrenos.html">Sobre nós</a></li>
+                            <li class="bottom-menu footer-link"><a class="footer-link" href="./contato.html">Contate-nos</a></li>
                         </ul>
                     </div>
 
