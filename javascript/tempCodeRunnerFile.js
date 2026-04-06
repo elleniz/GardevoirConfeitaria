@@ -1,1 +1,0 @@
-navbar-light bg-dar

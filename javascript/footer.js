@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `        
         <footer class="pt-3">
-            <div class="container-fluid text-center text-white" style="background-color: #2B2B2B; height: 250px;;">
+            <div class="container-fluid text-center text-white" style="background-color: #2B2B2B; height: 250px;">
 
                 <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto;"> 
 
@@ -11,7 +11,7 @@ class Footer extends HTMLElement {
                     </div>
 
                     <div style= "position: absolute; left: 50%; text-align: left;">
-                        <ul class="footer-link"style="list-style: none; padding: 0; margin: 0;">
+                        <ul class="footer-link" style="list-style: none; padding: 0; margin: 0;">
                             <li class="bottom-menu" style="color: #F0C260;">Páginas</li>
                             <li class="bottom-menu footer-link" style="margin-top: 15px"><a class="footer-link" href="/index.html">Início</a></li>
                             <li class="bottom-menu footer-link"><a class="footer-link" href="./produtos.html"> Produtos</a></li>

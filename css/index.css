@@ -8,7 +8,7 @@ img {
   max-width: 100%;
 }
 
-/* main sem margin-top */
+/* main sem margin-top*/
 main {
   margin: 0; 
   padding: 0;
@@ -18,7 +18,6 @@ main {
   padding-left: 0;      
   margin-left: -220px;    
 }
-
 
 .btn-custom {
   background-color: #F0C260;
@@ -55,17 +54,16 @@ main {
   margin: 0;
 }
 
-/* ASIDE */
-/* Deixa o aside fixo do topo até o fim da tela */
+/* ASIDE nao mexe....*/
 .widget-avaliacoes {
   position: sticky;
-  top: 100px; /* distância do topo, ajuste se tiver header fixo */
-  max-height: calc(100vh - 100px); /* altura máxima sem ultrapassar a tela */
-  overflow-y: auto; /* adiciona scroll interno se os cards forem muitos */
+  top: 100px; 
+  max-height: calc(100vh - 100px); /*  esse é pra nao passar a tela, qualquer coisapode por outro */
+  overflow-y: auto; 
   padding-right: 15px;
 }
 
-/* CARDS AVALIAÇÃO */
+
 .card-avaliacao {
   background: transparent;
   border-radius:  0 0 15px 15px;
@@ -81,7 +79,7 @@ main {
   height: 45px;
 }
 
-/* CURSOS */
+/* PARTE CURSOS */
 .curso-card {
   border-radius: 25px;
   overflow: hidden;
@@ -89,8 +87,8 @@ main {
 }
 
 .curso-card img {
-    object-fit: cover
-;}
+    object-fit: cover;
+  }
 
 .curso-card .card-body {
   background: #D9D9D9;
@@ -160,7 +158,7 @@ main {
 }
 
 .btncursos2:hover{
-    background-color: #d5727d;
+  background-color: #d5727d;
 }
 
 .curso-index{
@@ -172,21 +170,22 @@ main {
 }
 
 
-.testimonial-card {
+/*é dos cards nao muda NADA*/
+.avaliacao-card {
     border-radius: 15px;
     overflow: hidden;
     max-width: 400px;
     background-color: #f0c2ca;
 }
 
-.testimonial-header {
+.avaliacao-header {
     background-color: #8e1f3b;
     color: white;
     padding: 15px;
     position: relative;
 }
 
-.testimonial-header img {
+.avaliacao-header img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -196,12 +195,11 @@ main {
     transform: translateY(-50%);
 }
 
-.testimonial-body {
-    background-color: #e0e0e0; /* fundo da citação */
+.avaliacao-body {
+    background-color: #e0e0e0; 
     padding: 20px;
     position: relative;
 }
-
 
 
 .curso-card button {
@@ -218,6 +216,25 @@ main {
  .curso-card button:hover{
   background-color: #e4c528;
   border: none;
-  box-shadow: none; /* remove aquele brilho azul ao clicar */
+  box-shadow: none; /* ESSE É OQ TIRA O BRILHO AZUL */
 }
 
+
+.aside-index {
+  background-color: #E6A9B0;
+}
+
+.sticky-sidebar-container { /*esse é o de ficar na tela*/
+  position: sticky;
+  top: 100px;
+  align-self: flex-start;
+  padding-bottom: 50px;
+}
+
+.main-content-row {
+  margin: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+/*confere que ta funcionando p mim... */

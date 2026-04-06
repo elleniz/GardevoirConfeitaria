@@ -34,5 +34,17 @@
     background: linear-gradient(to right, #434343, #464646); 
     color: #FFFFFF; 
 }
-    .btn-contato-ajuste { background-color: transparent; border: 1px solid #F0C260; color: #F0C260; padding: 10px 20px; transition: 0.3s; }
-    .btn-contato-ajuste:hover { background-color: #F0C260; color: #000; }
+
+/*esses é oq fiz ontem*/
+
+.btn-contato-ajuste { 
+    background-color: transparent; 
+    border: 1px solid #F0C260; 
+    color: #F0C260; 
+    padding: 10px 20px; 
+    transition: 0.3s; 
+}
+
+.btn-contato-ajuste:hover { 
+    background-color: #F0C260; 
+    color: #000; }
