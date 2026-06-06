@@ -72,7 +72,6 @@ main {
   
 }
 
-
 .card-topo img {
   margin-left: auto; 
   width: 45px;
@@ -84,6 +83,10 @@ main {
   border-radius: 25px;
   overflow: hidden;
   height: 100%;
+}
+
+.curso-card:hover img{
+  transform: scale(1.04);
 }
 
 .curso-card img {

@@ -12,7 +12,6 @@ class Card extends HTMLElement {
 
             <img src="${img}" class="card-img-top"style="height: 300px; object-fit: cover;">
 
-
                 <div class="card-verde">
                     <p class="m-0">${descricao}</p>
                 </div>

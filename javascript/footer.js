@@ -7,18 +7,26 @@ class Footer extends HTMLElement {
                 <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto;"> 
 
                     <div style="padding-left: 40px">
-                        <img src="/img/logo.png" style="width: 250px;">
+                        <img src="../img/logo.png" style="width: 250px;">
                     </div>
 
                     <div style= "position: absolute; left: 50%; text-align: left;">
                         <ul class="footer-link" style="list-style: none; padding: 0; margin: 0;">
-                            <li class="bottom-menu" style="color: #F0C260;">Páginas</li>
-                            <li class="bottom-menu footer-link" style="margin-top: 15px"><a class="footer-link" href="/index.html">Início</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href="./produtos.html"> Produtos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href="./cursos.html">Cursos</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href="./localizacao.html">Localização</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href="sobrenos.html">Sobre nós</a></li>
-                            <li class="bottom-menu footer-link"><a class="footer-link" href="./contato.html">Contate-nos</a></li>
+                            <li class="bottom-menu footer-link">
+                                <a class="footer-link" href="../paginas/produtos.html">Produtos</a>
+                            </li>
+                            <li class="bottom-menu footer-link">
+                                <a class="footer-link" href="../paginas/cursos.html">Cursos</a>
+                            </li>
+                            <li class="bottom-menu footer-link">
+                                <a class="footer-link" href="../paginas/localizacao.html">Localização</a>
+                            </li>
+                            <li class="bottom-menu footer-link">
+                                <a class="footer-link" href="../paginas/sobrenos.html">Sobre nós</a>
+                            </li>
+                            <li class="bottom-menu footer-link">
+                                <a class="footer-link" href="../paginas/contato.html">Contate-nos</a>
+                            </li>
                         </ul>
                     </div>
 

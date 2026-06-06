@@ -11,6 +11,7 @@
 .carousel-control-next {
     right: 20px;
 }
+
 .gradiente-produtos {
   background: linear-gradient(to top, #434343, #464646);
   height: 340px;
@@ -47,7 +48,6 @@ h1 {
 .botao-orcamento{
   background-color: #F0C260;
   font-family: 'Jacques Francois', serif;
-  
   color: #2B2B2B;
   border: none;
   border-radius: 26px;
@@ -64,13 +64,13 @@ h1 {
 }
 
 card-produto img {
-    transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
 }
 
 card-produto:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 card-produto {
-    overflow: hidden;
+  overflow: hidden;
 }

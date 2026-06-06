@@ -1,7 +1,7 @@
 class CardAvaliacao extends HTMLElement {
   connectedCallback() {
     const nome = this.getAttribute("nome") 
-    const foto = this.getAttribute("foto") 
+    const foto = this.getAttribute("foto")
     const texto = this.getAttribute("texto")
 
     this.innerHTML = `
