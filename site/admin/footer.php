@@ -1,7 +1,5 @@
-class Footer extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `        
-        <footer class="pt-3">
+<footer>
+<footer class="pt-3">
             <div style="width: 100vw; margin-left: calc(-50vw + 50%); background-color: #2B2B2B; height: 250px;" class="text-center text-white">
 
                 <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1000px; margin: 0 auto;"> 
@@ -67,13 +65,12 @@ class Footer extends HTMLElement {
             </div>
             <div style="width: 100vw; margin-left: calc(-50vw + 50%); background-color: #8F2738; color: #E6BFD2;" class="text-center pt-2">
                 <span class="mx-auto text-footer" style="color: #E6BFD2">
-                    2025 Â© Gardevoir Confeitaria - Confeitaria
+                    2025 © Gardevoir Confeitaria - Confeitaria
                 </span>
             </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-        </footer>
-        `;
-  }
-}
+</footer>
 
-customElements.define("ins-footer", Footer);
+</body>
+</html>

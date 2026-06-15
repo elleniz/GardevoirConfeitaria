@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Início</title>
-  
+  <title>Gardevoir Administração</title>
+
   <link rel="stylesheet" href="./css/styleindex.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/style.css">
-
+  
   <script src="./javascript/menu-navegacao.js" defer></script>
   <script src="./javascript/footer.js" defer></script>
   <script src="./javascript/card-avaliacao.js" defer></script>
@@ -25,34 +25,30 @@
 
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+  <!--NAV de cima-->
   <header class="fixed-top">
      <nav class="navbar navbar-expand-lg navbar-dark navbar-custom">        
         <img src="/GardevoirConfeitaria/img/logo.png" alt="logo" style="width: 230px; height: 100px; object-fit: cover; margin-left: 200px" class="logo-navbar">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ">
-            <li class="nav-item navbar-text active">
-              <a class="nav-link" href="index.html"style="color: #F0C260";>Início</a>
-            </li>
             <li class="nav-item navbar-text">
-              <a class="nav-link" href="/GardevoirConfeitaria/paginas/produtos.html">Produtos</a>
-            </li>
-            <li class="nav-item navbar-text">
-              <a class="nav-link" href="/GardevoirConfeitaria/paginas/cursos.html">Cursos</a>
-            </li>
-            <li class="nav-item navbar-text">
-              <a class="nav-link" href="/GardevoirConfeitaria/paginas/localizacao.html">Localização</a>
-            </li>
-            <li class="nav-item navbar-text">
-              <a class="nav-link" href="/GardevoirConfeitaria/paginas/sobrenos.html">Sobre nós</a>
-            </li>
-            <li class="nav-item navbar-text">
-              <a class="nav-link" href="/GardevoirConfeitaria/paginas/contato.html">Contate-nos</a>
+                 <a class="nav-link" href="/GardevoirConfeitaria/site/admin/pedido/PedidoList.php">Lista de Pedidos</a>
             </li>
 
             <li class="nav-item navbar-text">
-                <a class="nav-link" href="/GardevoirConfeitaria/site/admin/usuario/login.php">Login</a>
-              </li>
+                <a class="nav-link" href="/GardevoirConfeitaria/site/admin/avaliacao/AvaliacaoList.php">Lista de Avaliações</a>
+            </li>
+
+            <li class="nav-item navbar-text">
+                <a class="nav-link" href="/GardevoirConfeitaria/site/admin/curso/CursoList.php">Lista de Cursos</a>
+            </li>
+
+            <li class="nav-item navbar-text">
+              <a class="nav-link" href="/GardevoirConfeitaria/site/admin/usuario/UsuarioList.php">Lista de Usuários</a>
+            </li>
+            <li class="nav-item navbar-text">
+              <a class="nav-link" href="/GardevoirConfeitaria/site/admin/usuario/login.php">Login</a>
+            </li>
           </ul>
         </div>
       </nav>
